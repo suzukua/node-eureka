@@ -1,0 +1,11 @@
+{
+  "name": "node-euraka",
+  "version": "0.0.1",
+  "dependencies": {
+    "eureka-js-client": "*",
+    "express": "*",
+    "body-parser": "*",
+    "urllib": "*",
+    "underscore": "*"
+  }
+}

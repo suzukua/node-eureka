@@ -1,0 +1,21 @@
+eureka:
+  heartbeatInterval: 30000
+  registryFetchInterval: 30000
+  host: 'dev.discovery.shishike.com'
+  port: 80
+  servicePath: '/eureka/apps'
+
+instance:
+  instanceId: "node-euraka"
+  app: 'node-eureka'
+  hostName: '192.168.10.145'
+  #ipAddr: '192.168.10.145'
+  statusPageUrl: 'http://192.168.10.145:9999'
+  port:
+      '$': 9999
+      '@enabled': 'true'
+
+  vipAddress: 'node-eureka'
+  dataCenterInfo:
+      '@class': 'com.netflix.appinfo.InstanceInfo$DefaultDataCenterInfo'
+      name: 'MyOwn'
